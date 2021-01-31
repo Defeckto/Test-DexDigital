@@ -1,0 +1,17 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+/* components imports */
+
+@import "components/_header.css";
+@import "components/_banner.css";
+@import "components/_pay-form.css";
+@import "components/_post.css";
+@import "components/_news.css";
+@import "components/_quote.css";
+@import "components/_footer.css";
+
+@import "_adaptive.css";

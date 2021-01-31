@@ -1,0 +1,123 @@
+/* header */
+
+@media screen and (max-width: 1070px) {
+    .pay-form {
+        min-width: 320px;
+        position: absolute!important;
+        top: 525px ;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar__nav {
+        display: none;
+    }
+    .pay-form {
+        top: 635px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .pay-form {
+        top: 530px;
+    }
+    .banner__upper-title{
+        font-size: 10px;
+        line-height: 20px;
+        padding-top: 62px;
+    }
+    .banner__title{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .banner__description{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .pay-form {
+        top:535px !important;
+    }
+} 
+
+/* post */
+@media screen and (max-width: 1070px){
+    .post__content-container {
+        margin: 0 auto;
+    }
+    .post__items{
+        position: static;
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .post__items{
+        padding: 0px 20px;
+        margin-top: 370px;
+    }
+    .post__item{
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width: 764px) {
+    .post__item:not(:last-child) {
+        margin: 30px auto;
+    }
+}
+/* news */
+@media screen and (max-width: 663px){
+    .news__content-container{
+        display: grid;
+    }
+    .news__content-container div:nth-child(2){
+            grid-row: 3;
+    }
+    .news__img{
+        float: none;
+        padding: 30px 0;
+        max-width: 100%;
+    }
+}
+
+
+
+/* footer */
+@media screen and (max-width: 764px){
+    .footer-nav {
+        flex-wrap: wrap;
+    }
+    .footer__contacts::before {
+        top: -15px;
+        left: 0;
+    }
+    .footer-nav__items {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-nav__links {
+        position: relative;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .footer-nav__links::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 100%;
+        z-index: 5;
+        background-color: #1F2F4B;
+        top: -15px;
+        left: 0;
+    }
+    .footer__contacts{
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+    .footer__social{
+        margin-top: 15px;
+    }
+ 
+}

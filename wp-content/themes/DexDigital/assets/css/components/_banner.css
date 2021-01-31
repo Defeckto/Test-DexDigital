@@ -1,0 +1,53 @@
+.banner{
+    background-color: var(--deepcove-color);
+    color: var(--white-color);
+    padding-bottom: 236px;
+}
+
+.banner__container{
+    position: relative;
+}
+
+.banner__upper-title{
+    padding-top: 102px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.banner__title{
+    max-width: 677px;
+    padding-top: 22px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 76px;
+}
+
+.banner__description{
+    max-width: 533px;
+    margin-top: 30px;
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+}
+.banner__description::after{
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 1px;
+    background-color: var(--white-color);
+    top: 8px;
+    left: 0;
+}
+
+.banner__btn{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 55px;
+    padding: 11px 49px;
+    background-color: var(--jaffa-color);
+    border-radius: 22px;
+}

@@ -1,0 +1,88 @@
+.pay-form{
+    max-width: 366px;
+    background-color: var(--white-color);
+    padding: 12px;
+    top: 62px;
+    right: 0;
+    z-index: 100;
+}
+
+.pay-form__wrap{
+    color: var(--white-color);
+    background-color: #0C3E67;
+    text-align: center;
+    padding: 0 23px;
+}
+
+.pay-form__title{
+    padding-top: 48px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.pay-form__subtitle{
+    max-width: 187px;
+    margin: 0 auto 25px;
+    padding-top: 18px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    opacity: .6;
+}
+
+.pay-form__form select{
+    display: inline-block;
+    font-family: 'RedHat', sans-serif;
+    border: inherit;
+    color: var(--white-color);
+    background-color: inherit;
+    width: 100%;
+    font-size: 12px;
+    min-height: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+
+.pay-form__form select::after{
+    position: absolute;
+    content: '';
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+
+.pay-form__wrap select:focus {
+	border: inherit;
+	background-color: #0C3E67;
+}
+.pay-form__wrap-select{
+    display: flex;
+}
+.pay-form__wrap-select select:first-child{
+    margin-right: 21px;
+}
+
+.pay-form__price{
+    color: var(--picton-color);
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.pay-form__btn{
+    cursor: pointer;
+    display: inline-block;
+    color: var(--white-color);
+    background-color: var(--picton-color);
+    border: inherit;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 48px;
+}

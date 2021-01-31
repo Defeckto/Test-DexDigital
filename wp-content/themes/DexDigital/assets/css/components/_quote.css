@@ -1,0 +1,17 @@
+.quote{
+    margin: 44px 0 46px;
+}
+.quote__content-container{
+    background-color: var(--jaffa-color);
+    border-radius: 20px;
+}
+.quote__content{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    max-width: 442px;
+    margin: 0 auto;
+    padding: 29px 0;
+}
